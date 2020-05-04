@@ -20,6 +20,8 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.white,
         body: SafeArea(
           child: Container(
+            height: double.maxFinite,
+            width: double.maxFinite,
             padding: EdgeInsets.fromLTRB(20, 7, 20, 0),
             child: ListView(
               children: <Widget>[
